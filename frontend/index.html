@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Text Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>AI Text Summarizer</h1>
+        <p class="subtitle">Summarize long text using a local AI model</p>
+
+        <label for="inputText">Input Text</label>
+        <textarea id="inputText" placeholder="Paste or type your text here..."></textarea>
+
+        <div class="controls">
+            <select id="length">
+                <option value="short">Short</option>
+                <option value="medium" selected>Medium</option>
+                <option value="long">Long</option>
+            </select>
+
+            <button onclick="summarize()">Summarize</button>
+        </div>
+
+        <div class="output-container">
+            <label>Summary</label>
+            <pre id="output">Your summary will appear here.</pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
