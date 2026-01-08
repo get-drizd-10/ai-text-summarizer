@@ -37,9 +37,9 @@ Frontend (HTML/CSS/JS)
 Open `frontend/index.html` in a browser.
 
 ## Screenshots
-![Empty UI](docs/screenshots/ui-empty.png)
-![Short Summary](docs/screenshots/ui-short.png)
-![Long Summary](docs/screenshots/ui-long.png)
+![Empty UI](docs/scrnshots/ui-empty.png)
+![Short Summary](docs/scrnshots/ui-short.png)
+![Long Summary](docs/scrnshots/ui-long.png)
 
 ## Learnings
 - Integrating AI models into web backends
